@@ -16,6 +16,11 @@ import static zerakiassessment.reverseCharacters.splitToFour;
 public class hopCount {
      public static void main(String[] args) {
         // TODO code application logic here
+        Scanner myObj1 = new Scanner(System.in);
+        System.out.println("Input length of River:");
+
+// String input
+        int length = myObj1.nextInt();
         Scanner myObj = new Scanner(System.in);
         System.out.println("Input number of stones:");
 
